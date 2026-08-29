@@ -1,5 +1,5 @@
 backend:
-  replicas: 2
+  replicas: 1
   image:
     repository: pd0077/notes-backend
     tag: v1
