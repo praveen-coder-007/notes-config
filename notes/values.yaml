@@ -2,7 +2,7 @@ backend:
   replicas: 1
   image:
     repository: pd0077/notes-backend
-    tag: a5e63aadb8599a7d750fda699242939f9cc8337d
+    tag: 18aff0c98aff6c120cb775a4aa219e97717564c1
   port: 8080
   mongoUri: "mongodb://mongodb:27017/notesdb"
 
@@ -10,7 +10,7 @@ frontend:
   replicas: 1
   image:
     repository: pd0077/notes-frontend
-    tag: a5e63aadb8599a7d750fda699242939f9cc8337d
+    tag: 18aff0c98aff6c120cb775a4aa219e97717564c1
   port: 80
 
 mongodb:
